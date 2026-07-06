@@ -108,7 +108,7 @@ const DADOS = {
 
   // ---- Raspadinhas (a surpresa final) ----
   surpresas: [
-    "Escreva aqui uma frase surpresa 2",
+    "Escreva aqui uma frase surpresa 1",
     "Escreva aqui uma frase surpresa 2",
     "Escreva aqui uma frase surpresa 3",
     "Escreva aqui uma frase surpresa 4",
