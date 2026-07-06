@@ -554,10 +554,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 18px;
+    padding: 32px 42px 76px;
     text-align: center;
     font-family: var(--font-display);
-    font-size: 1.05em;
+    font-size: 11px;
+    line-height: 1.15;
     color: var(--ameixa);
     background: var(--creme);
     clip-path: path("M85,149.6 C85,149.6 17,85 17,49.3 C17,25.5 42.5,8.5 68,17 C81.6,22.1 85,34 85,34 C85,34 88.4,22.1 102,17 C127.5,8.5 153,25.5 153,49.3 C153,85 85,149.6 85,149.6 Z");
