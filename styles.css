@@ -544,10 +544,7 @@ body {
     width: 170px;
     height: 170px;
     position: relative;
-    clip-path: path("M85,149.6 C85,149.6 17,85 17,49.3 C17,25.5 42.5,8.5 68,17 C81.6,22.1 85,34 85,34 C85,34 88.4,22.1 102,17 C127.5,8.5 153,25.5 153,49.3 C153,85 85,149.6 85,149.6 Z");
     filter: drop-shadow(0 10px 16px rgba(74, 46, 68, 0.25));
-    overflow: hidden;
-    background: var(--creme);
 }
 
 .raspadinha-texto {
@@ -561,11 +558,14 @@ body {
     font-family: var(--font-display);
     font-size: 1.05em;
     color: var(--ameixa);
+    background: var(--creme);
+    clip-path: path("M85,149.6 C85,149.6 17,85 17,49.3 C17,25.5 42.5,8.5 68,17 C81.6,22.1 85,34 85,34 C85,34 88.4,22.1 102,17 C127.5,8.5 153,25.5 153,49.3 C153,85 85,149.6 85,149.6 Z");
 }
 
 .raspadinha canvas {
     position: absolute;
     inset: 0;
+    clip-path: path("M85,149.6 C85,149.6 17,85 17,49.3 C17,25.5 42.5,8.5 68,17 C81.6,22.1 85,34 85,34 C85,34 88.4,22.1 102,17 C127.5,8.5 153,25.5 153,49.3 C153,85 85,149.6 85,149.6 Z");
     cursor: grab;
     touch-action: none;
 }
